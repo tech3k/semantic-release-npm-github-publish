@@ -3,7 +3,8 @@
 		"semantic-release-expo",
 		{
 			"versions": {
-				"android": "${increment}"
+				"android": "${increment}",
+				"ios": "${increment}"
 			}
 		}
 	],
