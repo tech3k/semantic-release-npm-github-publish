@@ -1,5 +1,6 @@
 [
 	[
+		"semantic-release-expo",
 		"@semantic-release/commit-analyzer",
 		{
 			"releaseRules": [
@@ -40,7 +41,12 @@
 	[
 		"@semantic-release/git",
 		{
-			"assets": ["package.json", "package-lock.json", "CHANGELOG.md"],
+			"assets": [
+				"app.json",
+				"package.json",
+				"package-lock.json",
+				"CHANGELOG.md"
+			],
 			"message": "release(version): Release ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
 		}
 	],
