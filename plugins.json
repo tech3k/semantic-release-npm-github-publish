@@ -3,6 +3,7 @@
 		"semantic-release-expo",
 		{
 			"versions": {
+				"version": "${next.raw}",
 				"android": "${increment}",
 				"ios": "${increment}"
 			}
