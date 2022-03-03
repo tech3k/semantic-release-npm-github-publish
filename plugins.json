@@ -1,6 +1,13 @@
 [
 	[
 		"semantic-release-expo",
+		{
+			"versions": {
+				"android": "${increment}"
+			}
+		}
+	],
+	[
 		"@semantic-release/commit-analyzer",
 		{
 			"releaseRules": [
